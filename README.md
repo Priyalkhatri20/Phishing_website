@@ -24,5 +24,3 @@ This project is implemented in **Google Colab** with interactive UI support usin
 - **Interactive UI** to test custom emails
 
 ---
-
-## 📂 Project Structure
