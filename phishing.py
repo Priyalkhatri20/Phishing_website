@@ -10,10 +10,9 @@ Original file is located at
 # Email Phishing Detection System for Google Colab - FIXED VERSION
 # This version properly loads your Phishing_Email.csv dataset
 
-# Step 1: Install required packages
-!pip install ipywidgets pandas scikit-learn numpy matplotlib seaborn -q
 
 # Step 2: Import all necessary libraries
+import streamlit as st
 import pandas as pd
 import numpy as np
 import re
@@ -21,6 +20,7 @@ import warnings
 from typing import Dict, Any, Tuple
 import csv
 from io import StringIO
+import joblib
 
 # Machine Learning Libraries
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
